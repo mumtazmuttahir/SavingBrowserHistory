@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA0893481D3AFD9E00CBB9B6 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA0893471D3AFD9E00CBB9B6 /* Storyboard.storyboard */; };
 		CA599A581D3ABDDD00070299 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA599A571D3ABDDD00070299 /* main.m */; };
 		CA599A5B1D3ABDDD00070299 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA599A5A1D3ABDDD00070299 /* AppDelegate.m */; };
 		CA599A5E1D3ABDDD00070299 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA599A5D1D3ABDDD00070299 /* ViewController.m */; };
@@ -16,6 +17,9 @@
 		CA599A691D3ABDDD00070299 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA599A671D3ABDDD00070299 /* LaunchScreen.storyboard */; };
 		CA599A741D3ABDDD00070299 /* ForEventagrateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA599A731D3ABDDD00070299 /* ForEventagrateTests.m */; };
 		CA599A7F1D3ABDDD00070299 /* ForEventagrateUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA599A7E1D3ABDDD00070299 /* ForEventagrateUITests.m */; };
+		CA599A8D1D3ABE2300070299 /* BrowsingHistory.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA599A8C1D3ABE2300070299 /* BrowsingHistory.storyboard */; };
+		CA599A901D3ADCAE00070299 /* BrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA599A8F1D3ADCAE00070299 /* BrowserViewController.m */; };
+		CA599A931D3ADCC300070299 /* HistoryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA599A921D3ADCC300070299 /* HistoryTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CA0893471D3AFD9E00CBB9B6 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		CA599A531D3ABDDD00070299 /* ForEventagrate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForEventagrate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA599A571D3ABDDD00070299 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CA599A591D3ABDDD00070299 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -53,6 +58,11 @@
 		CA599A7A1D3ABDDD00070299 /* ForEventagrateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForEventagrateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA599A7E1D3ABDDD00070299 /* ForEventagrateUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForEventagrateUITests.m; sourceTree = "<group>"; };
 		CA599A801D3ABDDD00070299 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA599A8C1D3ABE2300070299 /* BrowsingHistory.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = BrowsingHistory.storyboard; path = ../BrowsingHistory.storyboard; sourceTree = "<group>"; };
+		CA599A8E1D3ADCAE00070299 /* BrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrowserViewController.h; sourceTree = "<group>"; };
+		CA599A8F1D3ADCAE00070299 /* BrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrowserViewController.m; sourceTree = "<group>"; };
+		CA599A911D3ADCC300070299 /* HistoryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryTableViewController.h; sourceTree = "<group>"; };
+		CA599A921D3ADCC300070299 /* HistoryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,9 +120,15 @@
 				CA599A5F1D3ABDDD00070299 /* Main.storyboard */,
 				CA599A651D3ABDDD00070299 /* Assets.xcassets */,
 				CA599A671D3ABDDD00070299 /* LaunchScreen.storyboard */,
+				CA599A8C1D3ABE2300070299 /* BrowsingHistory.storyboard */,
+				CA0893471D3AFD9E00CBB9B6 /* Storyboard.storyboard */,
 				CA599A6A1D3ABDDD00070299 /* Info.plist */,
 				CA599A621D3ABDDD00070299 /* ForEventagrate.xcdatamodeld */,
 				CA599A561D3ABDDD00070299 /* Supporting Files */,
+				CA599A8E1D3ADCAE00070299 /* BrowserViewController.h */,
+				CA599A8F1D3ADCAE00070299 /* BrowserViewController.m */,
+				CA599A911D3ADCC300070299 /* HistoryTableViewController.h */,
+				CA599A921D3ADCC300070299 /* HistoryTableViewController.m */,
 			);
 			path = ForEventagrate;
 			sourceTree = "<group>";
@@ -248,7 +264,9 @@
 			files = (
 				CA599A691D3ABDDD00070299 /* LaunchScreen.storyboard in Resources */,
 				CA599A661D3ABDDD00070299 /* Assets.xcassets in Resources */,
+				CA599A8D1D3ABE2300070299 /* BrowsingHistory.storyboard in Resources */,
 				CA599A611D3ABDDD00070299 /* Main.storyboard in Resources */,
+				CA0893481D3AFD9E00CBB9B6 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,8 +291,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA599A931D3ADCC300070299 /* HistoryTableViewController.m in Sources */,
 				CA599A641D3ABDDD00070299 /* ForEventagrate.xcdatamodeld in Sources */,
 				CA599A5E1D3ABDDD00070299 /* ViewController.m in Sources */,
+				CA599A901D3ADCAE00070299 /* BrowserViewController.m in Sources */,
 				CA599A5B1D3ABDDD00070299 /* AppDelegate.m in Sources */,
 				CA599A581D3ABDDD00070299 /* main.m in Sources */,
 			);
@@ -502,6 +522,7 @@
 				CA599A851D3ABDDD00070299 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA599A861D3ABDDD00070299 /* Build configuration list for PBXNativeTarget "ForEventagrateTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +531,7 @@
 				CA599A881D3ABDDD00070299 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA599A891D3ABDDD00070299 /* Build configuration list for PBXNativeTarget "ForEventagrateUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +540,7 @@
 				CA599A8B1D3ABDDD00070299 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
